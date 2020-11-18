@@ -9,14 +9,25 @@
         position: absolute;
         background: white;
       }
-
       .static:hover {
         opacity: 0;
+      }
+
+      .container {
+        width: 500px;
+        position: relative;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
       }
     </style>
   </head>
   <body>
-    <img class="static" src="img/lego gif.jpg" alt="Still" />
-    <img class="active" src="img/lego gif.gif" alt="Moving" />
+    <div class="container">
+      <img class="static" src="img/lego gif.jpg" alt="Still" />
+      <img class="active" src="img/lego gif.gif" alt="Moving" />
+    </div>
   </body>
 </html>
